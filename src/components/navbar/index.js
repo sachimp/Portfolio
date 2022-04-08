@@ -19,10 +19,7 @@ const Navbar = () => {
               <NavLinks to ="service">What you need</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to ="about">Why?</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to ="signup">Sign Up</NavLinks>
+              <NavLinks to ="why">Why?</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
