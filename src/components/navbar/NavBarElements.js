@@ -30,7 +30,8 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkRouter)`
-  color: white;
+  color: #CB807D;
+  text-shadow: 0.5px 0.5px white;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -95,13 +96,13 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkRouter)`
   border-radius: 50px;
-  background: #01bf71;
+  background: #CB807D;
   white-space: nowrap;
   padding: 10px 22px;
   color: #010606;
   font-size: 16px;
   outline: none;
-  border: none;
+  border: 1px solid white;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;

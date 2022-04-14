@@ -19,9 +19,13 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Tranquility is in Your Hands.</HeroH1>
-        <HeroP>Sign up today for a free first session of origami life-coaching.</HeroP>
         <HeroBtnWrapper>
-          <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
+          <Button to="signup"
+          onMouseEnter={onHover}
+          onMouseLeave={onHover}
+          primary='true'
+          dark='true'
+          >
             Begin your Journey {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
