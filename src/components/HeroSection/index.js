@@ -19,6 +19,7 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Tranquility is in Your Hands.</HeroH1>
+        <HeroP>Fold your life into manageable shapes.</HeroP>
         <HeroBtnWrapper>
           <Button to="signup"
           onMouseEnter={onHover}
