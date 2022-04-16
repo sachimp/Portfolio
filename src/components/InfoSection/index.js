@@ -1,22 +1,28 @@
 import React from 'react'
-import { Button } from 'react-scroll/modules'
+import { Button } from '../ButtonElement'
+import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './InfoElements'
 
-const InfoSection = () => {
+const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt}) => {
   return (
     <>
-      <InfoContainer id={id}>
+      <InfoContainer lightBg={lightBg} id ={id}>
         <InfoWrapper>
-          <InfoRow>
+          <InfoRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
-                <TopLine> Top Line</TopLine>
-                <Heading>Heading</Heading>
-                <Subtitle>Subtitle</Subtitle>
-                <BtwnWrap>
-                  <Button to="home"> Button </Button>
-                </BtwnWrap>
+                <TopLine>{topLine}</TopLine>
+                <Heading lightText={lightText}>{headline}</Heading>
+                <Subtitle darkText={darkText}>{description}</Subtitle>
+                <BtnWrap>
+                  <Button to='home'>{buttonLabel}</Button>
+                </BtnWrap>
               </TextWrapper>
             </Column1>
+            <Column2>
+              <ImgWrap>
+                <Img src={img} alt={alt}/>
+              </ImgWrap>
+            </Column2>
           </InfoRow>
         </InfoWrapper>
       </InfoContainer>
