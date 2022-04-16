@@ -3,11 +3,10 @@ import {Link} from 'react-scroll'
 
 export const Button = styled(Link)`
   border-radius: 10px;
-  background: ${({primary}) => (primary ? '#CB807D' : '#010606')};
   white-space: nowrap;
   padding: ${({big}) => (big ? '14px 48px' : '12px 30px')};
   color: ${({dark}) => (dark ? '#FFEEF2' : '#000')};
-  font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
+  font-size: ${({fontBig}) => (fontBig ? '24px' : '24px')};
   outline: none;
   border: 1px solid white;
   cursor: pointer;
