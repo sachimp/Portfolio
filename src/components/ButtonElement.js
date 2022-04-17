@@ -8,7 +8,7 @@ export const Button = styled(Link)`
   color: ${({dark}) => (dark ? '#FFEEF2' : '#000')};
   font-size: ${({fontBig}) => (fontBig ? '24px' : '24px')};
   outline: none;
-  border: 1px solid white;
+  border: 1px solid #FFD1D1;
   cursor: pointer;
   display: flex;
   justify-content: center;
