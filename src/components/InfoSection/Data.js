@@ -26,7 +26,7 @@ export const homeObjTwo = {
   buttonLabel: 'Get Started',
   imgStart: true,
   img: require('../../images/people.svg').default,
-  alt: 'Origami swan',
+  alt: 'clipart of people standing together',
   dark: true,
   primary: true,
   darkText: false
@@ -43,7 +43,7 @@ export const homeObjThree = {
   buttonLabel: 'Get Started',
   imgStart: false,
   img: require('../../images/remote.svg').default,
-  alt: 'Origami swan',
+  alt: 'clipart representation of remote working and communication',
   dark: false,
   primary: false,
   darkText: true
