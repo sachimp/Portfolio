@@ -9,7 +9,7 @@ export const homeObjOne = {
   buttonLabel: 'Get Started',
   imgStart: false,
   img: require('../../images/friendship.svg').default,
-  alt: 'Origami swan',
+  alt: 'clipart of people sitting under a tree',
   dark: false,
   primary: false,
   darkText: true
