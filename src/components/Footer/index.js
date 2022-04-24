@@ -1,5 +1,6 @@
 import React from 'react'
-import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink } from './FooterElements'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, SocialIcons, SocialIconLink, WebsiteRights } from './FooterElements'
 
 const Footer = () => {
   return (
@@ -37,6 +38,22 @@ const Footer = () => {
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
+        <SocialMedia>
+          <SocialMediaWrap>
+            <SocialLogo to="/"> TranquilFolds </SocialLogo>
+            <WebsiteRights>
+              TranquilFolds © {new Date().getFullYear()} All rights reserved.
+            </WebsiteRights>
+            <SocialIcons>
+              <SocialIconLink href="https://github.com/sachimp" target="_blank" aria-label="GitHub">
+                <FaGithub />
+              </SocialIconLink>
+              <SocialIconLink href="https://www.linkedin.com/in/sachin-gandhi9001/" target="_blank" aria-label="LinkedIn">
+                <FaLinkedin />
+              </SocialIconLink>
+            </SocialIcons>
+          </SocialMediaWrap>
+        </SocialMedia>
       </FooterWrap>
     </FooterContainer>
   )
