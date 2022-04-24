@@ -7,23 +7,23 @@ import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesI
 
 const Services = () => {
   return (
-    <ServicesContainer id="services">
-      <ServicesH1> Our Services </ServicesH1>
+    <ServicesContainer id="summary">
+      <ServicesH1> Quick Look </ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1}/>
-          <ServicesH2> Reduce Expenses </ServicesH2>
-          <ServicesP> We Help You</ServicesP>
+          <ServicesH2> Sessions </ServicesH2>
+          <ServicesP> Short, regular sessions that deliver clarity and tranquility.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2}/>
-          <ServicesH2> Reduce Expenses </ServicesH2>
-          <ServicesP> We Help You</ServicesP>
+          <ServicesH2> The Theory </ServicesH2>
+          <ServicesP> Focus efficiently by hacking your own mind.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3}/>
-          <ServicesH2> Reduce Expenses </ServicesH2>
-          <ServicesP> We Help You</ServicesP>
+          <ServicesH2> Commitment to Flexibility </ServicesH2>
+          <ServicesP> Have your sessions remotely, or in-person. Eventually, in-spirit. </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>

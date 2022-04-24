@@ -9,14 +9,17 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
+        <SidebarLink to='summary' onClick={toggle}>
+            Quick Look
+          </SidebarLink>
           <SidebarLink to='aboutme' onClick={toggle}>
-            Who I am
+            The Service
           </SidebarLink>
           <SidebarLink to='service' onClick={toggle}>
-            What you need
+            The Theory
           </SidebarLink>
           <SidebarLink to='why' onClick={toggle}>
-            Why
+            Hybridity
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
