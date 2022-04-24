@@ -8,38 +8,32 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle> About Us</FooterLinkTitle>
-                <FooterLink>Careers</FooterLink>
-                <FooterLink>Terms of Service</FooterLink>
-                <FooterLink>My GitHub</FooterLink>
-                <FooterLink>My LinkedIn</FooterLink>
-                <FooterLink>My Portfolio Site</FooterLink>
+              <FooterLinkTitle> Real Links</FooterLinkTitle>
+                <FooterLink href="https://github.com/sachimp" target="_blank">My GitHub</FooterLink>
+                <FooterLink href="https://www.linkedin.com/in/sachin-gandhi9001/" target="_blank">My LinkedIn</FooterLink>
+                <FooterLink>My Portfolio Site (WIP)</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle> About Us</FooterLinkTitle>
                 <FooterLink>Careers</FooterLink>
                 <FooterLink>Terms of Service</FooterLink>
-                <FooterLink>My GitHub</FooterLink>
-                <FooterLink>My LinkedIn</FooterLink>
-                <FooterLink>My Portfolio Site</FooterLink>
+                <FooterLink>Something Important</FooterLink>
+                <FooterLink>Something Pointless</FooterLink>
+                <FooterLink>Interesting Words</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle> About Us</FooterLinkTitle>
-                <FooterLink>Careers</FooterLink>
-                <FooterLink>Terms of Service</FooterLink>
-                <FooterLink>My GitHub</FooterLink>
-                <FooterLink>My LinkedIn</FooterLink>
-                <FooterLink>My Portfolio Site</FooterLink>
+              <FooterLinkTitle> Policy</FooterLinkTitle>
+                <FooterLink>Animal Policy</FooterLink>
+                <FooterLink>Human Policy</FooterLink>
+                <FooterLink>Gamers Policy</FooterLink>
+                <FooterLink>Policy Policy</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
-              <FooterLinkTitle> About Us</FooterLinkTitle>
+              <FooterLinkTitle> One More Section</FooterLinkTitle>
                 <FooterLink>Careers</FooterLink>
                 <FooterLink>Terms of Service</FooterLink>
-                <FooterLink>My GitHub</FooterLink>
-                <FooterLink>My LinkedIn</FooterLink>
-                <FooterLink>My Portfolio Site</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
